@@ -40,7 +40,12 @@ footer{
   right: 0;
 }
 
-#footer {
+#fixed_footer {
+  position: sticky;
+  padding-bottom: 1px;
+}
+
+#footer_text {
   color: white;
   text-decoration: none;
 }
@@ -180,6 +185,14 @@ h2{
 
 body, html {
   height: 100%;
+}
+
+.true:hover, .true:focus{
+  color: green;
+}
+
+.false:hover, .false:focus{
+  color: red;
 }
 
 .flip-card  {
