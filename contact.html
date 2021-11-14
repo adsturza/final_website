@@ -20,11 +20,35 @@
         <li class = "current_item"><a href = "contact.html">Contact</a></li>
       </ul>
     </header>
-    <main id="maincontent">
-
-      
     </nav>
-  </main>
+    <main id="maincontent">
+      <div id="contact">
+        <form action="https://formspree.io/f/mvoderkg" method="POST">
+          <fieldset>
+            <h1><legend>Contact Form</legend></h1>
+
+            <h2 id="form_text">Thanks for visiting my page! Feel free to get in touch with me
+                via the form below!
+            </h2><br />
+        
+          <div id="form">
+            <h2 class="form_text"><label for = "fullname">Name</label>
+            <input type="text" id = "fullname"
+            name = "client_name"></h2><br>
+        
+            <h2 class="form_text"><label for = "email">Email</label>
+            <input type = "email" id="email"
+            name="email_input"></h2><br>
+        
+            <h2 class="form_text"><label for = "message">Message</label>
+            <textarea id="message" name="message_input"></textarea></h2><br>
+            
+            <input type="submit" value="Submit">   
+          </div>
+        </fieldset>
+        </form>
+      </div>
+    </main>
   </body>
   <footer class='special_footer'>
     <h1 id='footer_text'>
