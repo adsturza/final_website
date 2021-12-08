@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CC14K28NSW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-CC14K28NSW');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/html5reset.css">
@@ -12,22 +21,22 @@
 </head>
 <body>
   <header>
-    <div class ="skip"><a href="#maincontent">Skip to Main Content</a></div>
+    <div class ="skip"><a href="#maincontent" tabindex="0">Skip to Main Content</a></div>
     <nav>
       <ul class = "nav_links">
-        <li class = "current_item"><a href ="index.html">About Me</a></li>
-        <li class = "nav_item"><a href="personal.html">Personal</a></li>
-        <li class = "nav_item"><a href="professional.html">Professional</a></li>
-        <li class = "nav_item"><a href="contact.html">Contact</a></li>
+        <li class = "current_item"><a href ="index.html" tabindex="0">About Me</a></li>
+        <li class = "nav_item"><a href="personal.html" tabindex="0">Personal</a></li>
+        <li class = "nav_item"><a href="professional.html" tabindex="0">Professional</a></li>
+        <li class = "nav_item"><a href="contact.html" tabindex="0">Contact</a></li>
       </ul>
     </nav>
-    <h1 id="maincontent">Adam Sturza</h1>
+    <h1 class="animated" id="maincontent">Adam Sturza</h1>
   </header>
 
   <main class = aboutmepage>
     
     <div class = "aboutme">
-    <p> Greetings! My name is Adam Sturza and I am a current junior at the University of Michigan. My hope in designing this website is that it allows you to learn a little bit more about me and some of my professional and personal interests. I really enjoy collaborating with others and hopefully this can become another avenue for us to connect! Feel free to <a href="contact.html">reach out</a> or connect with me on social media.
+    <p> Greetings! My name is Adam Sturza and I am a current junior at the University of Michigan. My hope in designing this website is that it allows you to learn a little bit more about me and some of my professional and personal interests. I really enjoy collaborating with others and hopefully this can become another avenue for us to connect! Feel free to <a href="contact.html" tabindex="0">reach out</a> or connect with me on social media.
     </p><br>
     <a href="https://www.instagram.com/asturza80/"> 
       <img src="images/instagram.png" id="instagram" alt="instagram logo"> 
@@ -36,7 +45,7 @@
       <img src="images/linkedin.png" id="linkedin" alt="linkedin logo"> 
     </a> 
     </div>
-    <h1>Some Interesting Info About Adam</h1>
+    <h1 class="animated">Some Interesting Info About Adam</h1>
     <div class="interesting_info">
       <ul>
         <li><p>I was born on November 7, 2000 in New York City</p></li><br>
